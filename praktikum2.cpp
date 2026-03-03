@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-    float pe,l;
+    float pe,el;
 
 void Input (){
     cout << "Masukkkan Panjang :" ;
     cin >> pe;
     cout << "Masukkan Luas :" ;
-    cin >> l;
+    cin >> el;
 }
 
 float LuasPersegi(float x, float y){
@@ -16,7 +16,7 @@ float LuasPersegi(float x, float y){
 
 
 void Output (){
-    cout<< "Hasilnya = " << LuasPersegi(pe,l) << endl;  
+    cout<< "Hasilnya = " << LuasPersegi(pe,el) << endl;  
 }
 
 int main(){
