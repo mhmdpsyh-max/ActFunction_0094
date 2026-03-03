@@ -10,13 +10,13 @@ void Input (){
     cin >> el;
 }
 
-float LuasPersegi(float x, float y){
+float LuasPersegii(float x, float y){
     return x*y;
 }
 
 
 void Output (){
-    cout<< "Hasilnya = " << LuasPersegi(pe,el) << endl;  
+    cout<< "Hasilnya = " << LuasPersegii(pe,el) << endl;  
 }
 
 int main(){
