@@ -14,8 +14,8 @@ float LuasPersegi(float x, float y){
     return x*y;
 }
 
-int Jumlah(int x, int y, int c){
-    return x+y+c;
+int Jumlah(int x, int y, int z){
+    return x+y+z;
 }
 
 void Output (){
