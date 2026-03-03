@@ -6,7 +6,7 @@ using namespace std;
 void Input (){
     cout << "Masukkan Panjangg :" ;
     cin >> p;
-    cout << "Masukkan Luas :" ;
+    cout << "Masukkan Luass :" ;
     cin >> l;
 }
 
@@ -14,8 +14,8 @@ float LuasPersegi(float x, float y){
     return x*y;
 }
 
-int Jumlah(int x, int b, int c){
-    return x+b+c;
+int Jumlah(int x, int y, int c){
+    return x+y+c;
 }
 
 void Output (){
