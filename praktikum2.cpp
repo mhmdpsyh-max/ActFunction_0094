@@ -6,7 +6,7 @@ using namespace std;
 void Input (){
     cout << "Masukkkan Panjang :" ;
     cin >> pe;
-    cout << "Masukkan Luas :" ;
+    cout << "Masukkan Lebar :" ;
     cin >> el;
 }
 
